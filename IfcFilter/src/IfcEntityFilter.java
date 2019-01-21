@@ -10,6 +10,7 @@ import java.nio.file.Paths;
 /**
  * Entity filter for ifc files.
  * Removes all property lines, which are unnecessary for 3D visualisation.
+ * The resulting file is named as the original ifc file with ending '_filtered_.ifc'.
  *
  */
 public class IfcEntityFilter {
